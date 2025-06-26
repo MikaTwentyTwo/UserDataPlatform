@@ -1,0 +1,28 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 926-264-357
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:18:46] "GET /create-admin HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:18:49] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:18:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:18:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:18:54] "GET /export HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:22:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:22:09] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:22:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:23:26] "GET /add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:23:46] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:23:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:23:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:23:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:03] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:03] "GET /login?next=/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:06] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:06] "GET /login?next=/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:08] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:24:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:26:16] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:26:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2025 13:26:22] "GET /export HTTP/1.1" 200 -
